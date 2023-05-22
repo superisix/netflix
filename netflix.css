@@ -1,0 +1,187 @@
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(img/arkaplan.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.header-content{
+    height: 60vh;
+    
+}
+.header-row{
+    height: 70vh;
+    max-width: 50%;
+    
+}
+body{
+    background-color: black;
+}
+img{
+    max-width: 100%;
+}
+.accordion-button{
+    background-color: gray;
+    color: white;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+/* browse için css kodları */
+
+.header-browse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+   
+}
+.col-browse{
+    flex-basis: 200px;
+    text-align: center;
+    margin: 10px;
+
+}
+.col-browse:hover img{
+    width: 250px;
+    height: 250px;
+}
+.col-browse img{
+    
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    
+}
+.col-browse h4{
+    margin-bottom: 20px;
+}
+
+/* browse_index css kodları */
+.header-browse_index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.row row-cols-1 row-cols-sm-2 row-cols-md-4{
+    margin-bottom: 50px;
+    justify-content: center
+}
+.header-browse_index h4{
+    text-align: start;
+    
+
+}
+.box_browse_index{
+    background-color: rgb(65, 64, 64);
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* login_sayfası css kodları */
+.box_login{
+        display: flex;
+        margin-right: 45vh;
+        align-items: center;
+        height: 100vh;
+        
+
+}
+.box_login form{
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid ;
+    margin-left: 450px ;
+    background-color: rgb(0, 0,0,0.5);
+    width: 350px;
+    
+}
+
+/* hesap_sayfası css kodları */
+.box_hesap_sayfasi{
+    background-color: antiquewhite;
+    width: 5000px;
+    height: 400px;
+}
+
+
+@media (min-width: 576px) {
+    .col-browse {
+      flex-basis: 50%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .col-browse {
+      flex-basis: 33.33%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .col-browse {
+      flex-basis: 25%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .col-browse {
+      flex-basis: 20%;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .box_login {
+        padding: 10px;
+    }
+
+    .form-control {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-3 {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+ul.list-unstyled {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.text-white {
+    color: #fff;
+}
